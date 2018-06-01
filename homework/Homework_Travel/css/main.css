@@ -66,7 +66,8 @@ nav {
 .menu1 {
   width: 100%;
   background: #4a4a4a;
-  margin-top: -2px; }
+  margin: 0;
+  padding: 0; }
 
 .content_menu > ul {
   display: flex;
@@ -74,8 +75,9 @@ nav {
 
 .content_menu > ul li a {
   display: block;
+  margin: 0;
   background: #4a4a4a;
-  padding: 10px 27px;
+  padding: 10px 30px;
   font-size: 14px;
   color: #f9f9f9;
   text-decoration: none; }
@@ -130,9 +132,15 @@ p {
   border: 2px solid grey; }
 
 .wraper {
-  background: #3db15a; }
+  width: 100%;
+  height: auto;
+  background: #4a4a4a; }
 
 .copy {
-  text-align: center; }
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-top: 545px;
+  margin-left: 285px; }
 
 /*# sourceMappingURL=main.css.map */
