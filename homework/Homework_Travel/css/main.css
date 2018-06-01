@@ -1,0 +1,138 @@
+body {
+  background-image: url(..//img/Background.jpg);
+  margin-right: 200px;
+  margin-left: 300px; }
+
+nav {
+  display: flex;
+  position: relative;
+  background: #f9f9f9; }
+
+.logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 0; }
+
+.nav_menu {
+  height: 187px; }
+
+.contacts {
+  list-style: none;
+  margin-left: 360px;
+  margin-top: 20px;
+  height: 70px;
+  padding: 0 10px; }
+
+.contacts {
+  margin-bottom: 30px; }
+
+.flag {
+  padding: 0;
+  margin: 0; }
+
+.fl {
+  clear: right;
+  float: right;
+  text-align: center; }
+
+.flag ul {
+  margin-top: 20px;
+  list-style: none; }
+
+.flag li {
+  float: left;
+  list-style: none; }
+
+.flag a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 7px; }
+
+.image {
+  padding: 0;
+  margin: 0; }
+
+.content_menu ul {
+  list-style: none; }
+
+.content_menu * {
+  margin: 0;
+  padding: 0;
+  margin-top: -1px; }
+
+.content_menu ul {
+  list-style: none; }
+
+.menu1 {
+  width: 100%;
+  background: #4a4a4a;
+  margin-top: -2px; }
+
+.content_menu > ul {
+  display: flex;
+  justify-content: center; }
+
+.content_menu > ul li a {
+  display: block;
+  background: #4a4a4a;
+  padding: 10px 27px;
+  font-size: 14px;
+  color: #f9f9f9;
+  text-decoration: none; }
+
+.content_menu > ul li {
+  position: relative; }
+
+.content_menu li a:hover {
+  background: #4a4a4a;
+  color: #f9f9f9;
+  transition: 0.3s; }
+
+.content_menu li ul {
+  position: absolute;
+  min-width: 150px;
+  display: none; }
+
+.content_menu li > ul li {
+  border: 1px solid darkgray; }
+
+.content_menu li > ul li a {
+  padding: 10px;
+  text-transform: none;
+  background: #585858; }
+
+.content_menu li:hover > ul {
+  display: inline-block;
+  position: absolute;
+  z-index: 500;
+  transition: 0.3s; }
+
+.info {
+  width: 250px;
+  height: auto;
+  position: static;
+  float: left;
+  background: #4a4a4a;
+  border: 2px solid grey; }
+
+h3 {
+  text-align: center; }
+
+p {
+  margin: 15px;
+  text-align: justify; }
+
+.news {
+  width: 250px;
+  height: auto;
+  float: right;
+  background: #4a4a4a;
+  border: 2px solid grey; }
+
+.wraper {
+  background: #3db15a; }
+
+.copy {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
