@@ -5,12 +5,23 @@
       <change afterPath="$PROJECT_DIR$/homework/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/.idea/watcherTasks.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/Bike_form.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/css/main.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/css/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/css/reset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/homework5.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/img/header_flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Bike_form/img/line.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Bike_form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Homework6/.idea/Homework6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/Homework6/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/Homework_Travel/css/main.sass" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/form/css/main.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/form/css/main.css.map" afterDir="false" />
@@ -18,7 +29,6 @@
       <change afterPath="$PROJECT_DIR$/homework/form/css/reset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/form/img/bg.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework/form/img/header_flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +54,7 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework/Homework_Travel/css/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="2091">
               <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
             </state>
           </provider>
@@ -53,8 +63,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework/form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="325">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -98,13 +108,14 @@
     <option name="width" value="697" />
     <option name="height" value="730" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,22 +128,11 @@
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework_Travel" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,15 +170,15 @@
       <workItem from="1527838325327" duration="15577000" />
       <workItem from="1528789686772" duration="1074000" />
       <workItem from="1528966464521" duration="296000" />
+      <workItem from="1528973002597" duration="1328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37054000" />
+    <option name="totallyTimeSpent" value="38382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119791664" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -202,19 +202,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119791664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32160804" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985119" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -225,6 +225,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/homework/Homework_Travel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Homework_Travel/css/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homework/Homework_Travel/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
@@ -328,15 +349,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/Homework_Travel/css/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="2091">
           <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/form/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="325">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
