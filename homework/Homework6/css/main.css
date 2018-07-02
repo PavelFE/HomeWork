@@ -247,3 +247,151 @@ bold{
     color: #03488f;
     font-size: 19px;
 }
+.selected_auto{
+    display: inline-flex;
+}
+.auto {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 180px;
+    border: 2px solid black;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px;
+    background: #cbcbcb;
+}
+as{
+    color: #6d6d6d;
+    font-size: 13px;
+}
+.diskiauvo{
+    position: absolute;
+}
+.shunuauto{
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+}
+.auto h3, h4 {
+    text-align: center;
+    color: #03488f;
+    font-family: Arial sans-serif;
+    font-size: 15px;
+    }
+.auto select {
+    color: green;
+    background: #333333;
+    width: 120px;
+    height: 20px;
+    margin-top: -15px;
+}
+.auto a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:20px 20px 5px auto;
+    text-decoration: none;
+    list-style: none;
+    color: #0c3357;
+}
+.toyo{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    border: 2px solid black;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px;
+    background: #cbcbcb;
+}
+.toyo h3{
+    color: #0c3357;
+    font-size: 16px;
+    text-align: center;
+}
+.find_toyo select{
+    margin-left: 5px;
+    color: green;
+    background: #333333;
+    /*width: 120px;*/
+    /*height: 20px;*/
+    margin-top: 10px;
+}
+.find_toyo a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:20px 20px 5px auto;
+    text-decoration: none;
+    list-style: none;
+    color: #0c3357;
+}
+.find_toyo .raddius {
+    margin-left: 30px;
+}
+.sizon{
+    color: purple;
+    text-align: center;
+    font-size: 16px;
+}
+.find_toyo [input type="checkbox"]{
+    color: #2C81E1;
+    font-size: 16px  ;
+
+}
+input[type="checkbox"]{
+    font-size: 16px;
+}
+.disk{
+    width: 450px;
+    height: 180px;
+    position: relative;
+    border: 2px solid black;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px;
+    background: #cbcbcb;
+
+}
+.finddisk{
+    position: absolute;
+    left: 50px;
+    margin-top: 5px;
+}
+.palka{
+    position: absolute;
+    margin-left: 250px;
+}
+.dco{
+    position: absolute;
+    right: 80px;
+    margin-top: 5px;
+}
+.disk a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:20px 20px 5px auto;
+    text-decoration: none;
+    list-style: none;
+    color: #0c3357;}
+.disk select{
+    position: absolute;
+    left: 80px;
+    width: 40px;
+    height: 20px;
+
+}

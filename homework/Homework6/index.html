@@ -59,27 +59,223 @@
 
         </div>
     </div>
-    <div class="selected auto">
+    <div class="selected_auto">
         <div class="auto">
+            <h3>Поиск по автомобилю</h3>
+            <div class="diskiauvo"><h4>Диски:</h4>
             <p>
             <form action="">
-            <select>
-                <option selected="selected">Выберте марку</option>
+            <label for="mark_auvo">Марка<br> <as>автомобиля:</as></label>
+            <select name="mark_auvo">
+                <option selected="selected" disabled>Выберте марку</option>
                 <option value="Mercedes">Mercedes</option>
                 <option value="Audi">Audi</option>
                 <option value="Porshe">Porsche</option>
-                <option value="BMW">BMW</option><br/></br>
+                <option value="BMW">BMW</option>
             </select>
              </form>
             </p>
-
+            <p>
+            <form action="">
+            <label for="model">Модель<br><as>автомобиля:</as></label>
+                <select name="model">
+                    <option selected="selected" disabled>Выберте модель</option>
+                    <option value="model1">Вито</option>
+                    <option value="model2">Виано</option>
+                    <option value="model3">Е 390</option>
+                    <option value="model4">М3 купе</option>
+                </select>
+            </form>
+            </p>
+            <p>
+            <form action="">
+            <label for="year">Год<br><as>автомобиля:</as></label>
+            <select name="year">
+                    <option selected="selected">Год выпуска</option>
+                    <option value="year 2000">2000</option>
+                    <option value="year 2001">2001</option>
+                    <option value="year 2002">2002</option>
+                    <option value="year 2003">2003</option>
+                </select>
+            </form>
+            </p>
+            <p>
+            <form action="">
+            <label for="complectation">Комплектация<br><as>автомобиля:</as></label>
+            <select name="complectation">
+                    <option selected="selected">Год выпуска</option>
+                    <option value="complectation1">Var1</option>
+                    <option value="complectation2">Var2</option>
+                    <option value="complectation3">Var3</option>
+            </select>
+            </form>
+            </p>
+            </div>
+            <div class="shunuauto">
+                <h4>Шины:</h4>
+                <p>
+                <form action="">
+                    <label for="mark_auvo">Марка<br><as>автомобиля:</as></label>
+                    <select name="mark_auvo">
+                        <option selected="selected"></option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Porshe">Porsche</option>
+                        <option value="BMW">BMW</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="model">Модель<br><as>автомобиля:</as></label>
+                    <select name="model">
+                        <option selected="selected" disabled></option>
+                        <option value="model1">Вито</option>
+                        <option value="model2">Виано</option>
+                        <option value="model3">Е 390</option>
+                        <option value="model4">М3 купе</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="year">Год<br><as>автомобиля:</as></label>
+                    <select name="year">
+                        <option selected="selected"></option>
+                        <option value="year 2000">2000</option>
+                        <option value="year 2001">2001</option>
+                        <option value="year 2002">2002</option>
+                        <option value="year 2003">2003</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="complectation">Комплектация<br><as>автомобиля:</as></label>
+                    <select name="complectation">
+                        <option selected="selected"></option>
+                        <option value="complectation1">Var1</option>
+                        <option value="complectation2">Var2</option>
+                        <option value="complectation3">Var3</option>
+                    </select>
+                </form>
+                </p>
+            </div>
+            <a href="#">Поиск...</a>
         </div>
         <div class="toyo">
-
+        <div class="find_toyo">
+        <h3>Поиск шин</h3>
+        <p>
+        <form action="">
+            <label for="size">Размер:</label>
+                <select name="size">
+                    <option selected="selected" value="size">145</option>
+                    <option value="size 155">155</option>
+                    <option value="size 165">165</option>
+                    <option value="size 175">175</option>
+                    <option value="size 200">200</option>
+                </select>
+            <label for="">/</label>
+                <select name="">
+                    <option selected="selected" value="size 35">35</option>
+                    <option value="size 45">45</option>
+                    <option value="size 55">55</option>
+                </select>
+        </form>
+        </p>
+                <p>
+                 <form action="">
+                    <label for="raddius"class="raddius"> R</label>
+                    <select name="raddius">
+                        <option selected="selected" disabled></option>
+                        <option value="radius 13">13</option>
+                        <option value="radius 14">14</option>
+                        <option value="radius 15">15</option>
+                    </select>
+                </form>
+            </p>
+        <p>
+            <form action="/">
+            <label for="sizon"class="sizon">Сезон:</label>
+            <p><input type="checkbox" name="1" value="winter"> Зима</p>
+            <p><input type="checkbox" name="2" value="sumer"> Лето</p>
+            <p><input type="checkbox" name="3" value="allsizons" checked> Всесезонные</p>
+        </form>
+            </p>
+            <a href="#">Поиск...</a>
+        </div>
         </div>
         <div class="disk">
+            <div class="finddisk">
+                <h4>Поиск дисков</h4>
+                <p>
+                <form action="">
+                    <label for="diametr">Деаметр<br><as>диска:</as></label>
+                    <select name="diametr">
+                        <option selected="selected"></option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="dirki">Количество<br><as>крепёжных <br>отверстий:</as></label>
+                    <select name="dirki">
+                        <option selected="selected" disabled></option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="otverstiya">Диаметр<br><as>расположеных <br>крепёжных <br>отверстий:</as></label>
+                    <select name="otverstiya">
+                        <option selected="selected" disabled></option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                    </select>
+                </form>
+                </p>
+            </div>
+            <table border="1px" width="1px" height="185px" class="palka"></table>
+            <div class="dco">
+                <p>
+                <form action="">
+                    <label for="dco">ДЦО <br><as>(диаметр<br>центрального <br>отверстия):</as></label>
+                    <select name="dco">
+                        <option selected="selected" disabled></option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                    </select>
+                </form>
+                </p>
+                <p>
+                <form action="">
+                    <label for="et">ЕТ <br><as>(вылет<br>диска):</as></label>
+                    <select name="et">
+                        <option selected="selected" disabled></option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                    </select>
+                </form>
+                </p>
 
+            </div>
+            <a href="#">Поиск...</a>
         </div>
+
     </div>
 </content>
 
